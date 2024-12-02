@@ -1,0 +1,286 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+  /*CSS Reset*/
+  
+  /*For Testing
+  *{
+    border: 1px solid blue;
+  }
+  */
+  
+  body{
+  color: #000;
+  font-family: "Inknut Antiqua";
+  font-size: 1.00rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  
+  h1{
+  font-size: 2rem;
+  font-weight: 400;
+  }
+  
+  h2{
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 700;
+  }
+  
+  header{
+  position: fixed;
+  top: 0;
+  height: 75px;
+  width: 100vw;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #E5C463;
+  }
+  
+  .main-header{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60vw;
+  }
+  
+  #header-img{
+    margin: 0 1rem 0 0;
+  }
+  
+  nav{
+    min-height: 75px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 3rem 0 0;
+  }
+  
+  .spacing1{
+  height: 95px;
+  }
+  
+  ul{
+  list-style: none;
+  width: 40vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  }
+  
+  header ul{
+    margin: 0 0 0 0;
+  }
+  
+  /*Hero Section*/
+  #hero{
+  display: flex;
+  align-items: center;
+  max-width: 70.0625rem;
+  border-radius: 0.75rem;
+  background: #EADCB4;
+  padding: 1rem;
+  margin: auto;
+  }
+  
+  #form-part{
+  display: block;
+  margin: 0 0 0 1rem;
+  text-align: center;
+  }
+  
+  #email{
+  border-radius: 0.75rem;
+  background: #E5C463;
+  max-width: 21.8125rem;
+  max-height: 4.25rem;
+  margin: 0px auto;
+  }
+  
+  #submit{
+    margin: 0.25rem 0 0 0;
+  }
+  
+  /*Info Section*/
+  #features{
+  width: 80vw;
+  
+  }
+  
+  .featureset{
+  display:flex;
+  justify-content: center;
+  width: 100vw;
+  
+  }
+  
+  .info-image{
+  max-width: 5rem;
+  height: 8.375rem;
+  margin: 0 20px 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .feature-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+  padding: 5px;
+  max-width: 56.625rem;
+  margin: 0 30px 0 0;
+  }
+  
+  #video-section{
+    margin: 3.75rem 0 5rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  /*Pricing Cards*/
+  .price-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 0 4.5rem 0;
+  }
+  
+  #pricing{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 75%;
+  }
+  
+  .cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  border-radius: 0.75rem;
+  border: 5px solid #EADCB4;
+  box-sizing: border-box;
+  margin: 0 0.75rem 0 0.75rem;
+  min-width: 50px;
+  
+  }
+  
+  ol{
+    list-style: none;
+    margin: 0 0 0 -40px;
+  }
+  
+  div.price-wrapper h2{
+  margin: 10px 0 0 0;
+  }
+  
+  div.price-wrapper li{
+  padding: 5px;
+  }
+  
+  div.price-wrapper button.button{
+  margin: 5px 0 10px 0;
+  }
+  
+  .rarity{
+  background: #EADCB4;
+  width:100%;
+  font-size: 1.5rem;
+  }
+  
+  .button{
+  width: 7.5625rem;
+  height: 2.625rem;
+  flex-shrink: 0;
+  border-radius: 0.75rem;
+  background: #E5C463;
+  }
+  /*end pricing cards*/
+  
+  /*Footer Section*/
+  footer{
+  width: 100vw;
+  background: #E5C463;
+  padding: 20px;
+  }
+  
+  .footer-list {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 2rem 0 0;
+  }
+  
+  footer ul{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer li{
+  padding: 0 0 0 1.5rem;
+  }
+  
+  span{
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.5rem 2rem 0 0;
+  }
+  
+  /*End Footer Section*/
+  
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width: 690px) {
+    price-wrapper{
+      flex-direction: collumn;
+    }
+    pricing{
+      flex-direction: collumn;
+    }
+  }
+  
+  
+  
+  
+  
